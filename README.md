@@ -1,6 +1,8 @@
 # image-repository
 This is an image repository to allow you to organize images, provide descriptions for them, and search for certain images.
 
+Packages required to run: numpy, pandas, scikit-learn
+
 1. Add an image
   * To add an image, select a file when prompted. Then, select an existing category or input a new category. Finally, add a description of what the image is about. 
   
