@@ -8,4 +8,4 @@ This is an image repository to allow you to organize images, provide description
   * You can choose to delete one, multiple, or all images in the repository by specifying the IDs of the images to delete. 
   
 3. Search for images:
-  * Search for images by category, description, or both. 
+  * Search for images by category, description, or both. You will up to 3 results, and you can also choose to open up the images.
