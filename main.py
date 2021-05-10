@@ -2,6 +2,7 @@ from storage import ImageRepo
 from search import query
 import tkinter as tk
 from tkinter import filedialog
+from PIL import Image
 
 root = tk.Tk()
 root.withdraw()
@@ -27,7 +28,13 @@ def main():
       print("No images were found.")
     else:
       print("Top Results:")
-      print(query(category, keywords))
+      print(result)
+      see_images = input("Would you like to see the images? Input Y if yes. ")
+      if see_images.lower() == "y":
+        images = list(result['path'])
+        for img in images:
+          Image.open(img).show()
+
   elif selection.lower() == "c":
     print("Select an image: ")
     pathname = filedialog.askopenfilename()
